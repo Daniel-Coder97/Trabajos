@@ -24,12 +24,13 @@ body.tema-1{ background: linear-gradient(135deg,#139471,#064e3b,#04283a,#0f172a,
 .tema-1 button{
     background: #0dd894;
 }
+
 body.tema-2{ --accent:#5e34d3; --accent2:#6d10b9; --btn-text:#04281c; --grad-end:#37064e; }
 .tema-2 button{
     color: #ffffff;
     background: #5f10b9;
 }
-body.tema-3{ --accent:#a78bfa; --accent2:#8b5cf6; --btn-text:#1a1030; --grad-end:#2e1065; }
+body.tema-3{ background: linear-gradient(135deg, #d4b216, #bda146, #978844, #ada26d, #918b73) ;--accent:#fae68b; --accent2:#f6d25c; --btn-text:#1a1030;}
 body.tema-4{ --accent:#fb923c; --accent2:#f97316; --btn-text:#2a1206; --grad-end:#431407; }
 body.tema-5{ --accent:#f472b6; --accent2:#ec4899; --btn-text:#2a0618; --grad-end:#500724; }
  
@@ -168,7 +169,7 @@ td.neto{ color:var(--accent); font-weight:700; }
 /* Acento por item del menu (independiente del tema del body) */
 .menu a.m1{ --acc:#139471; --acc2:#139471; }
 .menu a.m2{ --acc:#5f10b9; --acc2:#5f10b9; }
-.menu a.m3{ --acc:#a78bfa; --acc2:#8b5cf6; }
+.menu a.m3{ --acc:#fae68b; --acc2:#f6d25c; }
 .menu a.m4{ --acc:#fb923c; --acc2:#f97316; }
 .menu a.m5{ --acc:#f472b6; --acc2:#ec4899; }
  
